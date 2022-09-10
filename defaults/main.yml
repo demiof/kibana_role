@@ -1,0 +1,9 @@
+---
+# defaults file for kibana_role
+
+kibana_version: "8.4.0"
+kibana_home: "/opt/kibana/{{ kibana_version }}"
+kibana_log_file: "/var/log/elasticsearch/kibana.log"
+host_platform: "x86_64"
+kibana_user: elasticsearch
+kibana_group: elasticsearch
